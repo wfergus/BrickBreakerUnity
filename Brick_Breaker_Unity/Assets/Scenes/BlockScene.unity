@@ -155,8 +155,7 @@ Prefab:
     - target: {fileID: 1549572527085484, guid: 7f05e6226c215f84c969b362ee799da3, type: 2}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f05e6226c215f84c969b362ee799da3, type: 2}
   m_IsPrefabParent: 0
@@ -253,7 +252,7 @@ GameObject:
   m_Layer: 0
   m_Name: Block Manager
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -269,10 +268,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1719759481001530, guid: e1e93f15644dae34ebd8c010bcf6e850, type: 2}
-  gridX: 5
-  gridY: 5
-  padding: 1
-  startX: -1
+  gridX: 7
+  gridY: 4
+  padding: 0.7
+  startX: -7
   starty: 1
 --- !u!4 &1636522807
 Transform:
